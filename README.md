@@ -2,7 +2,7 @@
 
 This project proposed a strategy for improving camera location estimation in structure from motion. Our strategy identifies severely
 corrupted pairwise directions by using a geometric consistency condition. It then selects a cleaner set of pairwise directions
-as a preprocessing step for common solvers. Please see https://arxiv.org/pdf/1804.02591.pdf for more details.
+as a preprocessing step for common solvers. Please see https://arxiv.org/pdf/1804.02591.pdf for details.
 ## What are included
 
 ### 4 matlab files:
