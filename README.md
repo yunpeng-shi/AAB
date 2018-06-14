@@ -29,5 +29,5 @@ provided in the file.
 © Regents of the University of Minnesota. All rights reserved.
 
 
-# Reference
+## Reference
 [1] Yunpeng Shi and Gilad Lerman, Estimation of Camera Locations in Highly Corrupted Scenarios: All About that Base, No Shape Trouble, CVPR 2018.
