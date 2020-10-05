@@ -6,23 +6,23 @@ as a preprocessing step for common solvers. Please see https://arxiv.org/pdf/180
 ## What are included
 
 ### 4 matlab files:
+The following function generates synthetic data using uniform corruption model of [1]. See detailed instructions in the header of the file.
 ```
 UniformCorruptionModel.m
 ```
-This function generates synthetic data using uniform corruption model of [1]. See detailed instructions in the header of the file.
+The following function computes Naive AAB statistic given a graph (adjacency matrix) and a set of pairwise directions. See detailed instructions in the header of the file.
 ```
 NaiveAAB.m
 ```
-This function computes Naive AAB statistic given a graph (adjacency matrix) and a set of pairwise directions. See detailed instructions in the header of the file.
+The following function computes IR-AAB statistic given a graph (adjacency matrix) and a set of pairwise directions. See detailed instructions in the header of the file.
 ```
 IRAAB.m
 ```
-This function computes IR-AAB statistic given a graph (adjacency matrix) and a set of pairwise directions. See detailed instructions in the header of the file.
+The following file demonstrates the performance of AAB statistics given synthetic data generated from uniform corruption model. The code for drawing scatter plots and ROC curves are included.
 ```
 demo.m
 ```
-This file demonstrates the performance of AAB statistics given synthetic data generated from uniform corruption model. The code for drawing scatter plots and ROC curves are 
-provided in the file.
+
 
 
 ## License
